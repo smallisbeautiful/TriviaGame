@@ -1,13 +1,13 @@
 body {
     background-image: url("../images/background.jpg");
-    color: white;
+    color: rgb(12, 52, 226);
     text-align: left;
-    font-family:'Righteous', cursive;
+    font-family:'Archivo Black', sans-serif;
 }
 
 .cover-heading{
-    margin-top: 40px;
-    font-size: 80px;
+    margin-top: 35px;
+    font-size: 60px;
 }
 
 #game-start{
@@ -16,8 +16,9 @@ body {
 }
 
 #countdown {
-    font-size: 26px;
-    color:rgb(201, 12, 12);
+    font-size: 23px;
+    font-weight: bold;
+    color:rgb(255, 10, 10);
 }
 
 #game-done {
@@ -26,15 +27,18 @@ body {
 
 .lead2 {
     font-size: 30px;
-    color: goldenrod;
+    font-weight: bold;
+    color: rgb(12, 52, 226);
 }
 
 .quest {
-    font-size: 26px;
-    color: wheat;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(12, 52, 226);
 }
 
 .text-mysize {
-    font-size: 20px;
+    font-size: 34px;
+    font-weight: bold;
 }
  

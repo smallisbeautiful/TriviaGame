@@ -6,7 +6,7 @@ $(document).ready(function() {
         $('.results').hide();
     
         
-        var number = 180; 
+        var number = 120; 
         var intervalId;
         var correctCount = 0;
         var wrongCount = 0;
@@ -30,10 +30,10 @@ $(document).ready(function() {
         function decrement(){
             number--;
             $('#timer').html(" " + number + " " + "seconds");
-            if (number ===1){
-                $('#timer').html(" " + number + " " + "second");
+            if (number === 1){
+                $('#timer').html(" " + number + " " + "seconds");
             }
-            else if(number ===0) {
+            else if(number === 0) {
                 stop();
                 hide();
                 displaySummary();
@@ -55,7 +55,7 @@ $(document).ready(function() {
         
         function displaySummary(){
             $('.results').show();
-            unanswered = (8-(correctCount+wrongCount));
+            unanswered = (12-(correctCount+wrongCount));
             $('#correctScore').text("Correct Answers:" + " " + correctCount); 
             $('#wrongScore').text("Wrong Answers:" + " " + wrongCount); 
             $('#unanswered').text("Unanswered:" + " " + unanswered); 
@@ -81,7 +81,7 @@ $(document).ready(function() {
         $('input[type=radio]').on ('change', function(){
         correctCount = $('input[value=correct]:checked').length;
         wrongCount = $('input[value=wrong]:checked').length;
-        unanswered = (8-(correctCount+wrongCount));
+        unanswered = (12-(correctCount+wrongCount));
         });
     
     
