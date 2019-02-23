@@ -11,14 +11,15 @@ body {
 }
 
 #game-start{
-    margin-top: 70px;
+    margin-top: 80px;
     font-size: 40px;
 }
 
 #countdown {
-    font-size: 25px;
+    position: fixed;
+    font-size: 24px;
     font-weight: bold;
-    color:rgb(255, 10, 10);
+    color:rgb(255, 10, 235);
 }
 
 #game-done {
@@ -26,7 +27,7 @@ body {
 }
 
 .lead2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
     color: rgb(12, 52, 226);
 }
